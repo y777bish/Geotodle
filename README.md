@@ -39,9 +39,23 @@ Wynikiem tej operacji są dane:
 
 ### Tworzenie wykresów
 
+Do tworzenia wykresów wykorzystaliśmy wspomniane wyżej dane z portalu GUS oraz Plotly wraz z narzędziem Plotly Chart Studio. Skupiliśmy się na tym aby wykres poprawnie reprezentował dane. W tym celu dostosowaliśmy osie x oraz y, zadbaliśmy o widoczną paletę kolorów i czytelną czcionkę. Następnie wyeksportowaliśmy wykresy do Chart Studio aby uzyskać link do załączenia ich w elemencie iframe na naszej stronie. Dzięki temu rozwiązaniu nasze wykresy są w pełni interaktywne i posiadają wszystkie funkcje zawarte w wizualizacji wykresów poprzez Plotly.
+
+#### Przykładowy wykres wykorzystany w naszej aplikacji:
+![Przykładowy wykres png](https://i.imgur.com/qTErSLJ.png)
+
 ### Tworzenie modeli
 
+Do tworzenia modeli zdecydowaliśmy się użyć Blendera w połączeniu z API które dostarczało nam mapy świata i informacje za nią idące- przede wszystkim wysokość budynków. Aby stworzyć taki każdy model musieliśmy ręcznie dopasowywać położenie budynków regulując siatkę nałożoną na mapę oraz umieścić światło w realistycznej konfiguracji.
+
+#### Przykładowy model wykorzystany w naszej aplikacji:
+![Przykładowy model png](https://i.imgur.com/KiYzDDe.png)
+
 ### Działanie aplikacji
+
+W budowie całości postawiliśmy na prostotę i minimalizm w użytych bibliotekach. Aplikacja działa poprzez wykorzystanie języka JavaScript do ukrywania i pokazywania obiektów na stronie, zatem jest w pełni obsługiwana przez klienta i nie potrzebuje do tego serwera. Rozwiązanie jest praktyczne gdyż w tym wypadku korzystamy w elementów które domyślnie są w folderach projektu.
+
+Używanie aplikacji czyli właściwa rozgrywka jest bardzo minimalistyczna oraz intuicyjna. Zachęcamy do spróbowania na własnej skórze. Powodzenia :)
 
 ### Uruchamianie aplikacji
 
